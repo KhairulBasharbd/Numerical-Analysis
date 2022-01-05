@@ -1,1 +1,3 @@
-"The value of Root is : " << c <<endl;
+double func(double x){
+    return x*x*x - x*x + 2;
+}
