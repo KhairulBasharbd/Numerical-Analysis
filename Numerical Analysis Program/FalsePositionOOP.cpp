@@ -13,7 +13,7 @@ class calculate{
         }
 
         double c=a;;
-        while(abs(func(c) >= EPSILON ){
+        while(abs(func(c)) >= EPSILON ){
             c = (a*func(b) - b*func(a)) / (func(b) - func (a));
             if(func(c) ==0){
                 break;
