@@ -14,7 +14,7 @@ void bisection(double a, double b){
 
     double c=a;;
     while(b-a >= EPSILON ){
-        c = (a+b)/2;
+        c = (a*func(b) - b*func(a)) / (func(b) - func (a));
         if(func(c) ==0){
             break;
         }
